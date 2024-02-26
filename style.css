@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Nunito+Sans:opsz,wght@6..12,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-size: 70vw 85vh;
+  background-position: right bottom;
+  font-family: "Nunito Sans", sans-serif;
+  /* overflow: hidden; */
+}
+h1 {
+  font-size: 47px;
+  font-weight: bolder;
+  text-shadow: 1px 5px 4px #969696;
+}
+h2 {
+  color: #717171;
+  padding-bottom: 30px;
+}
+.logo {
+  position: absolute;
+  top: 4%;
+  right: 5%;
+}
+.div {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+th {
+  background-color: #f05033;
+  color: white;
+}
+table {
+  width: 1040px;
+  height: 520px;
+}
+table,
+th,
+td {
+  font-size: 18px;
+  padding: 12px;
+  border-collapse: collapse;
+  text-align: left;
+}
+td{
+  border-bottom: 2px solid #838383;
+  padding-left: 25px;
+}
+table {
+  box-shadow: 1px 1px 2px #717171;
+  background-color: white;
+}
+td:nth-child(3),
+td:nth-child(4) {
+  text-align: center;
+}
+td:last-child {
+  text-align: right;
+  width: 10px;
+}
+tr:nth-child(2){
+  background-color: #f5f5f5;
+}
+.bluelink {
+  color: #4590f0;
+}
+.bowlers {
+  font-weight: 100;
+  color: #9a9a9a;
+  padding-left: 55px;
+}
+.footer {
+  padding: 10px 0px 0px 50px;
+  font-weight: 600;
+}
+.none {
+  display: none;
+}
+.modal:hover {
+  .none {
+    display: block;
+    position: absolute;
+    transform: translateY(-5%);
+  }
+}
+.modal-2:hover {
+  .none {
+    display: block;
+    position: absolute;
+    transform: translateY(-1%);
+  }
+}
+.Extraplayers {
+  color: #4590f0;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+}
